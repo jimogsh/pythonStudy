@@ -3,7 +3,6 @@ def pmodels(unprinted,completed):
         currentmodel=unprinted.pop()
         print("Now printing: "+currentmodel)
         completed.append(currentmodel)
-    print("\n")
 
 def show_completed(completed):
     print("\nThe following models have been completed:")
